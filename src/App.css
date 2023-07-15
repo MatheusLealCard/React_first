@@ -1,0 +1,155 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: black;
+  box-sizing: border-box;
+  background-color: black;
+  border: white 4px solid;
+  border-radius: 2px;
+}
+h1 {
+  background-color: white;
+  box-shadow: rgba(255, 255, 255, 0.45) 0px 2px 0px 0px;
+  border-radius: 2vh;
+}
+
+h4 {
+  background-color: white;
+  border-radius: 2vh;
+  box-shadow: rgba(255, 255, 255, 0.45) 0px 2px 0px 2px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: 30vh;
+  padding-top: 5vh;
+}
+
+#DownArrow {
+  font-size: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: none;
+  color: black;
+}
+
+#ArrowContainer a {
+  font-style: none;
+}
+
+.MainContainer {
+  height: 120vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main img {
+  border-radius: 500px;
+  height: 20vh;
+  border: white 2px solid;
+}
+
+main h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Habilidades {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 40vh;
+
+}
+
+#HabilidadeLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: wrap;
+}
+
+#TextHabilidades {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#TextHabilidades img {
+  height: auto;
+  margin: 20px;
+  width: 20vh;
+  position: relative;
+  top: 10vh;
+}
+
+#TextHabilidades #HabilidadeLogo img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#DownArrow {
+  justify-content: center;
+  background-color: white;
+  border-radius: 20vh;
+  width: 6vh;
+  height: 10vh;
+}
+
+#DownArrow:hover {
+  transform: scale(1.1);
+  background-color: rgba(3, 251, 3, 0.508);
+}
+
+img:hover {
+  transform: scale(1.1);
+}
